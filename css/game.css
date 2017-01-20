@@ -36,20 +36,24 @@ nav { width: 1024px; height: 50px; line-height: 50px; margin: 0 auto;}
 .goStart form input[type=button] { width: 150px; height: 150px; background-color: #85AF4B; border: none; border-radius: 150px; box-shadow: inset 0 18px 10px -3px #617F38;
                                     color: #FFFFFF; font-size: 44px; font-weight: bold; text-shadow: 0 0 10px #FFFFFF; cursor: pointer; outline: none;}
 .game { width: 612px; height: 612px; float: left; background-color: #FFFFFF;}
-.game table { width: 612px; height: 612px; border-collapse: inherit;}
+.game table { width: 612px; height: 616px; border-collapse: inherit; border: 3px solid #CCC;}
+.game table tr { height: 60px;}
 .game table tbody tr td { width: 60px; height: 60px; line-height: 60px; text-align: center;}
 .game table tbody tr td img { vertical-align: middle;}
 .game table tbody tr:nth-child(even) td:nth-child(even) {background-color: rgba(133, 175, 75, 0.6); }
 .game table tbody tr:nth-child(odd) td:nth-child(odd) {background-color:rgba(133, 175, 75, 0.6); }
 /*.game table tbody tr td.green { background-color: rgba(133, 175, 75, 0.6);} */
-.nowPlay { background: url("../images/now-position.png")no-repeat center; color: #FF8B00; font-weight: 500;}
+.nowPlay {
+    width: 50px; height: 50px; line-height: 44px; background-color: #FFFFFF; border: 3px dotted #FF8B00; border-radius: 50px; display: block; box-sizing: border-box; color: #FF8B00; font-weight: 500; margin: 5px auto 0;}
+.bigWhite { width: 50px; height: 50px; background-color: #FFFFFF; box-sizing: border-box; border: 3px solid #000000; border-radius: 50px; display: block; margin: 5px auto 0;}
+.bigBlack { width: 50px; height: 50px; background-color: #000000; border-radius: 50px; display: block; margin: 5px auto 0;}
 /* //game */
 
 /* qnaWrap */
 .qnaWrap { width: 300px; height: 323px; background-color: #FFFFFF; float: right; margin-top: -34px;}
 .gameRule { position: absolute; width: 300px; height: 323px; background-color: #FFFFFF; z-index: 9998;}
-.gameRule ul { width: 300px; margin-top: 34px;}
-.gameRule ul li { width: 250px; margin: 0 auto 20px;}
+.gameRule ul { width: 250px; margin: 34px auto;}
+.gameRule ul li { width: 200px; margin: 0 auto 20px; list-style: url("../images/check.png") ;}
 .gameRule ul li p { font-size: 14px; line-height: 16px;}
 .qnaWrap h2 { width: 60px; height: 60px; line-height: 60px; margin: 30px auto 10px; color: #FF8B00; font-weight: 500; text-align: center; background: url("../images/title-bg.png") no-repeat center;}
 .qna { width: 250px; height: 200px; margin: 0 auto;}
@@ -70,9 +74,11 @@ nav { width: 1024px; height: 50px; line-height: 50px; margin: 0 auto;}
 /* listBox */
 .listBox { width: 300px; height: 323px; background-color: #FFFFFF; float: right;}
 .nowTurn { width: 250px; height: 30px; margin: 50px auto 10px; text-align: center;}
-.nowTurn span:first-child { margin-right: 5px;}
-.nowTurn img { margin-right: 5px; vertical-align: middle;}
-.nowTurn img:last-child { margin-right: 0;}
+.nowTurn #player1 { height: 30px; line-height: 30px; vertical-align: top;}
+.smallBlack { width: 30px; height: 30px; background-color: #000000; border-radius: 30px; display: inline-block; margin: 0 5px;}
+.smallWhite { width: 30px; height: 30px; background-color: #FFFFFF; border: 2px solid #000000; border-radius: 30px; display: inline-block; box-sizing: border-box; margin: 0 5px;}
+.nowTurn img { margin-right: 5px; vertical-align: super; display: inline-block;}
+#player2 { height: 30px; line-height: 30px; margin-left: 0; vertical-align: top;}
 .on { visibility: visible;}
 .off { visibility: hidden;}
 .historyBox { width: 220px; height: 170px; background-color: #D3D3D3; border: 15px solid #D3D3D3; border-radius: 15px; box-sizing: border-box; margin: 0 auto; overflow-x: hidden; overflow-y: scroll;}
