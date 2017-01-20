@@ -1,5 +1,5 @@
 /* body */
-body { width: 100%; height: 100vh; background: url("/hfc2_html_v1/images/login-bg.png") no-repeat center; background-size: cover;}
+body { width: 100%; height: 100vh; background: url("../images/login-bg.png") no-repeat center; background-size: cover;}
 /* //body */
 
 /* contentsWrap */

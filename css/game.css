@@ -1,5 +1,5 @@
 /* body */
-body { width: 100%; height: 100vh; background: url("/hfc2_html_v1/images/game-bg.png") no-repeat center; background-size: cover;}
+body { width: 100%; height: 100vh; background: url("../images/game-bg.png") no-repeat center; background-size: cover;}
 /* //body */
 
 /* header */
@@ -40,7 +40,7 @@ nav { width: 1024px; height: 50px; line-height: 50px; margin: 0 auto;}
 .game table tbody tr td { width: 60px; height: 60px; line-height: 60px; text-align: center;}
 .game table tbody tr td img { vertical-align: middle;}
 .game table tbody tr td.green { background-color: rgba(133, 175, 75, 0.6);}
-.nowPlay { background: url("/hfc2_html_v1/images/now-position.png")no-repeat center; color: #FF8B00; font-weight: 500;}
+.nowPlay { background: url("../images/now-position.png")no-repeat center; color: #FF8B00; font-weight: 500;}
 /* //game */
 
 /* qnaWrap */
@@ -49,7 +49,7 @@ nav { width: 1024px; height: 50px; line-height: 50px; margin: 0 auto;}
 .gameRule ul { width: 300px; margin-top: 34px;}
 .gameRule ul li { width: 250px; margin: 0 auto 20px;}
 .gameRule ul li p { font-size: 14px; line-height: 16px;}
-.qnaWrap h2 { width: 60px; height: 60px; line-height: 60px; margin: 30px auto 10px; color: #FF8B00; font-weight: 500; text-align: center; background: url("/hfc2_html_v1/images/title-bg.png") no-repeat center;}
+.qnaWrap h2 { width: 60px; height: 60px; line-height: 60px; margin: 30px auto 10px; color: #FF8B00; font-weight: 500; text-align: center; background: url("../images/title-bg.png") no-repeat center;}
 .qna { width: 250px; height: 200px; margin: 0 auto;}
 .questionBox { display: inline-block; width: 250px;}
 .questionBox h3 { font-size: 30px; color: #617F38; float: left; font-family: Helvetica, Arial; font-weight: bold;}
@@ -80,9 +80,6 @@ nav { width: 1024px; height: 50px; line-height: 50px; margin: 0 auto;}
 .historyBox ul li.line { width: 100px; line-height: 30px;}
 .historyBox ul li.line img { vertical-align: middle;}
 .historyBox ul li.dotNum { float: right; line-height: 30px; text-align: left;}
-
-
-
 /* //listBox */
 /* //gameContents */
 /* //section*/
