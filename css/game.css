@@ -39,7 +39,9 @@ nav { width: 1024px; height: 50px; line-height: 50px; margin: 0 auto;}
 .game table { width: 612px; height: 612px; border-collapse: inherit;}
 .game table tbody tr td { width: 60px; height: 60px; line-height: 60px; text-align: center;}
 .game table tbody tr td img { vertical-align: middle;}
-.game table tbody tr td.green { background-color: rgba(133, 175, 75, 0.6);}
+.game table tbody tr:nth-child(even) td:nth-child(even) {background-color: rgba(133, 175, 75, 0.6); }
+.game table tbody tr:nth-child(odd) td:nth-child(odd) {background-color:rgba(133, 175, 75, 0.6); }
+/*.game table tbody tr td.green { background-color: rgba(133, 175, 75, 0.6);} */
 .nowPlay { background: url("../images/now-position.png")no-repeat center; color: #FF8B00; font-weight: 500;}
 /* //game */
 
