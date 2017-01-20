@@ -77,10 +77,9 @@ nav { width: 1024px; height: 50px; line-height: 50px; margin: 0 auto;}
 .nowTurn #player1 { height: 30px; line-height: 30px; vertical-align: top;}
 .smallBlack { width: 30px; height: 30px; background-color: #000000; border-radius: 30px; display: inline-block; margin: 0 5px;}
 .smallWhite { width: 30px; height: 30px; background-color: #FFFFFF; border: 2px solid #000000; border-radius: 30px; display: inline-block; box-sizing: border-box; margin: 0 5px;}
-.nowTurn img { margin-right: 5px; vertical-align: super; display: inline-block;}
 #player2 { height: 30px; line-height: 30px; margin-left: 0; vertical-align: top;}
-.on { visibility: visible;}
-.off { visibility: hidden;}
+.on { visibility: visible; margin: 0; vertical-align: super;}
+.off { visibility: hidden; margin: 0; vertical-align: super;}
 .historyBox { width: 220px; height: 170px; background-color: #D3D3D3; border: 15px solid #D3D3D3; border-radius: 15px; box-sizing: border-box; margin: 0 auto; overflow-x: hidden; overflow-y: scroll;}
 .historyBox ul { width: 180px; height: 30px; margin-bottom: 10px; float: left;}
 .historyBox ul li { width: 30px; height: 30px; display: inline-block;}
