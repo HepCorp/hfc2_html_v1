@@ -34,7 +34,7 @@ nav { width: 1024px; height: 50px; line-height: 50px; margin: 0 auto;}
 .otherPlayer form input[type=text] { width: 150px; height: 30px; box-sizing: border-box; display: block; outline: none;}
 .goStart { width: 150px; height: 150px; margin: 50px auto 0;}
 .goStart form input[type=button] { width: 150px; height: 150px; background-color: #85AF4B; border: none; border-radius: 150px; box-shadow: inset 0 18px 10px -3px #617F38;
-                                    color: #FFFFFF; font-size: 44px; font-weight: bold; text-shadow: 0 0 10px #FFFFFF; cursor: pointer; outline: none;}
+    color: #FFFFFF; font-size: 44px; font-weight: bold; text-shadow: 0 0 10px #FFFFFF; cursor: pointer; outline: none;}
 .game { width: 612px; height: 612px; float: left; background-color: #FFFFFF;}
 .game table { width: 612px; height: 616px; border-collapse: inherit; border: 3px solid #CCC;}
 .game table tr { height: 60px;}
@@ -50,7 +50,7 @@ nav { width: 1024px; height: 50px; line-height: 50px; margin: 0 auto;}
 /* //game */
 
 /* qnaWrap */
-.qnaWrap { width: 300px; height: 323px; background-color: #FFFFFF; float: right; margin-top: -34px;}
+.qnaWrap { width: 300px; height: 366px; background-color: #FFFFFF; float: right; margin-top: -34px;}
 .gameRule { position: absolute; width: 300px; height: 323px; background-color: #FFFFFF; z-index: 9998;}
 .gameRule ul { width: 250px; margin: 34px auto;}
 .gameRule ul li { width: 200px; margin: 0 auto 20px; list-style: url("../images/check.png") ;}
@@ -59,7 +59,7 @@ nav { width: 1024px; height: 50px; line-height: 50px; margin: 0 auto;}
 .qna { width: 250px; height: 200px; margin: 0 auto;}
 .questionBox { display: inline-block; width: 250px;}
 .questionBox h3 { font-size: 30px; color: #617F38; float: left; font-family: Helvetica, Arial; font-weight: bold;}
-.questionBox span { width: 215px; font-size: 18px; line-height: 20px; color: #333333; float: right; margin-bottom: 10px;}
+.questionBox span { width: 215px; font-size: 18px; line-height: 20px; color: #333333; float: right; margin-bottom: 10px; text-align: justify; word-wrap: break-word;}
 .questionBox a { display: inline-block; right: 12px; float: right; margin-bottom: 20px;}
 .questionBox a img { width: 20px; height: 20px; margin-right: 10px;}
 .answerBox { display: inline-block; width: 250px;}
@@ -72,8 +72,8 @@ nav { width: 1024px; height: 50px; line-height: 50px; margin: 0 auto;}
 /* qnaWrap */
 
 /* listBox */
-.listBox { width: 300px; height: 323px; background-color: #FFFFFF; float: right;}
-.nowTurn { width: 250px; height: 30px; margin: 50px auto 10px; text-align: center;}
+.listBox { width: 300px; height: 283px; background-color: #FFFFFF; float: right;}
+.nowTurn { width: 250px; height: 30px; margin: 30px auto 10px; text-align: center;}
 .nowTurn #player1 { height: 30px; line-height: 30px; vertical-align: top;}
 .smallBlack { width: 30px; height: 30px; background-color: #000000; border-radius: 30px; display: inline-block; margin: 0 5px;}
 .smallWhite { width: 30px; height: 30px; background-color: #FFFFFF; border: 2px solid #000000; border-radius: 30px; display: inline-block; box-sizing: border-box; margin: 0 5px;}
